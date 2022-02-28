@@ -1,0 +1,340 @@
+/* MAIN CONTENT */
+.main-sidebar .sidebar-menu li a {
+  font-weight: bolder;
+  font-size: 16px;
+}
+
+.main-sidebar .sidebar-menu li a {
+  color: #505050;
+}
+
+.navbar {
+  padding: 0px;
+}
+
+body:not(.sidebar-mini) .sidebar-style-2 .sidebar-menu > li.active > a {
+  padding:0px 5px;
+  background-color: #505050;
+  color: white;
+}
+
+.main-sidebar .sidebar-menu li a{
+  padding:0px 5px;
+}
+
+.main-sidebar .sidebar-menu li ul.dropdown-menu li a{
+  font-size: 14px;
+  font-weight: bold;
+  height: 35px;
+  padding-left: 40px;
+}
+
+.main-sidebar .sidebar-menu li ul.dropdown-menu li a:hover{
+  background-color: #f0f7f6;
+}
+
+/* MAIN CONTENT */
+
+.main-content {
+  padding-top: 95px;
+}
+
+.row {
+  margin-right: -20px;
+  margin-left: -20px;
+}
+
+.inner-row{
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.w100{
+  width: 100%;
+}
+
+.w50{
+  width: 50%;
+}
+
+.mt30{
+  margin-top: 30px;
+}
+
+.card{
+  margin: 8px -8px;
+  border-radius: 20px;
+}
+
+.card .card-header {
+  border-radius: 20px 20px 0px 0px;
+  font-weight: bolder;
+  text-transform: capitalize;
+  background-color: #F2F3F7;
+}
+
+.card .card-header h4{
+  color: black;
+  font-weight: bold;
+}
+
+.card .card-body{
+  padding: 20px 10px;
+}
+
+/*footer */
+
+.main-footer{
+  margin-bottom: -7px;
+  padding: 10px 20px 10px 270px;
+}
+
+@media only screen and (max-width: 792px) {
+  .main-footer{
+    margin-bottom: -10px;
+    padding: 10px 20px 10px 20px;
+  }
+}
+
+.main-footer .footer-left a, .main-footer .footer-right a{
+  font-size: 18px;
+  color: #505050;
+  text-transform: none;
+  font-weight: bold;
+  text-decoration: none
+}
+
+/* console page */
+
+.consoleBody{
+  color: grey;
+  font-weight: bold;
+  font-size:18px;
+}
+
+.table-striped tr td a:hover {
+  color: #fff;
+}
+.roleEdit {
+  margin-left: 50px;
+  color: #000;
+  font-size: 15px;
+}
+.roleEdit:hover {
+  text-decoration: none;
+  color: #000 !important;
+}
+.roleEdit button {
+  border: 1px solid gray;
+  padding: 7px;
+  border-radius: 5px;
+  outline: none;
+}
+
+/*CODE FOR BREADCRUMB */
+.consoleBtns button {
+  border: 1px solid gray;
+  padding: 5px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  white-space: nowrap;
+  outline: none;
+}
+.consoleMain {
+  cursor: pointer;
+}
+.consoleSub {
+  margin-left: 45px;
+  display: none;
+  background-color: #e1f0ef;
+}
+
+.consoleManage.fa-pencil-alt {
+  margin-left: 100px;
+}
+.table-striped tr td a:hover {
+  color: #fff;
+}
+.roleEdit {
+  margin-left: 50px;
+  color: #000;
+  font-size: 15px;
+}
+.roleEdit:hover {
+  text-decoration: none;
+  color: #000 !important;
+}
+.roleEdit button {
+  border: 1px solid gray;
+  padding: 7px;
+  border-radius: 5px;
+  outline: none;
+}
+
+.pageBreadcrumb {
+  margin: auto -15px;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 5px;
+  align-items: center;
+  justify-content: space-between;
+}
+.itemsBreadcrumb {
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+}
+.itemBreadcrumb {
+  color: #6777ef;
+}
+.itemBreadcrumb.active {
+  color: gray;
+}
+.itemBreadcrumb::after {
+  content: "/";
+  margin-left: 5px;
+  color: gray;
+}
+.itemBreadcrumb:not(:first-child) {
+  margin-left: 5px;
+}
+.itemBreadcrumb.active::after {
+  content: "";
+}
+.itemBreadcrumb i {
+  margin-right: 5px;
+}
+
+.offset{
+  margin-right: -50px;
+}
+
+@media only screen and (max-width: 792px) {
+  .pageBreadcrumb {
+    display: block;
+  }
+  .buttonBreadcrumb {
+    margin-top: -30px;
+    text-align: right;
+  }
+  .row {
+    margin-right: -25px;
+    margin-left: -25px;
+  }
+  .inner-row {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  .offset{
+    margin-right: -60px;
+  }
+  .mt30{
+    margin-top: 0px;
+  }
+}
+
+.form-input {
+  position: relative;
+}
+
+.form-input label {
+  position: absolute;
+  font-size: 1rem;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: white;
+  color: gray;
+  padding: 0 0.3rem;
+  margin: 0 0.5rem;
+  transition: .1s ease-out;
+  transform-origin: left top;
+  pointer-events: none;
+}
+label{
+  font-weight: bold;
+}
+input {
+  font-size: 1rem;
+  outline: none;
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 1rem 0.7rem;
+  color: gray;
+  transition: 0.1s ease-out;
+}
+.form-input input:focus {
+  border-color: #6200EE;
+}
+.form-input input:focus + label {
+  color: #6200EE;
+  top: 0;
+  transform: translateY(-50%) scale(.9);
+}
+.form-input input:not(:placeholder-shown) + label {
+  top: 0;
+  transform: translateY(-50%) scale(.9);
+}
+
+.custom-switch{
+  padding-left: 0px;
+}
+
+.custom-switch-description{
+  margin-left: 0px;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.custom-switch-indicator{
+  margin-left: 10px;
+}
+
+
+/*tables*/
+
+/*tables*/
+
+.table thead{
+  background-color: #505050;
+}
+
+.table:not(.table-sm) thead th{
+  color: white;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.table td{
+  padding: 10px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/*calendar*/
+
+.fc-view > table th, .fc-view > table td{
+  font-weight: bold;
+}
+
+.tc{
+  cursor: pointer;
+}
+
+.modal-lg, .modal-xl {
+    max-width: 1000px;
+}
+
+#loaderID{
+  position: fixed;
+  top: 45%;
+  left: 46%;
+  width: 100%;
+  height: 100%;
+  z-index: 999955;
+  display: none;
+}
+
+.cursor{
+  cursor: pointer !important;
+}

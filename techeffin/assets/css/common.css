@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-size: 0.99em;
+}
+
+@page {
+  size: auto;
+  /* auto is the initial value */
+  margin: 0;
+  /* this affects the margin in the printer settings */
+}
+
+.container-fluid .heading {
+  text-align: center;
+  font-size: 2em;
+}
+
+.container-fluid .information {
+  border: 1px solid #000;
+  padding: 1em;
+  margin-top: 1em;
+}
+
+.container-fluid .information > div:not(:first-child) {
+  margin-top: 1em;
+}
+
+.container-fluid .header {
+  margin-top: 5vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.container-fluid .header .address {
+  margin-top: 0.5em;
+}
+
+.container-fluid .header .heading {
+  margin-top: 0.5em;
+  font-size: 1.7em;
+}
+
+.container-fluid .photo {
+  position: absolute;
+  height: 170px;
+  width: 140px;
+  top: 5vh;
+  right: 3vw;
+}
+
+.container-fluid .form {
+  margin: 10vh 3vw 0;
+}
+
+.container-fluid .form .row {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[1];
+      grid-template-columns: repeat(1, 1fr);
+}
+
+.container-fluid .form .row div.heading {
+  text-align: left;
+  font-size: 1em;
+  font-weight: 600;
+}
+
+.container-fluid .form .row div.heading span {
+  font-weight: normal;
+}
+
+.container-fluid .form .row.row2 {
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+}
+
+.container-fluid .form .row.row3 {
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1em;
+}
+
+.container-fluid .form .row.row4 {
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+}
+
+.container-fluid .form .row.rowNote {
+  -ms-grid-columns: (70% 30%)[1];
+      grid-template-columns: repeat(1, 70% 30%);
+}
+
+.container-fluid .form .row:not(:first-child) {
+  margin-top: 1.5em;
+}
+
+.container-fluid .form .row table {
+  text-align: center;
+  border: 1px solid #000;
+  border-collapse: collapse;
+}
+
+.container-fluid .form .row table th,
+.container-fluid .form .row table td {
+  border: 1px solid #000;
+  border-collapse: collapse;
+  padding: 10px;
+}
+
+.container-fluid .form .row .stamp {
+  -ms-grid-column-align: right;
+      justify-self: right;
+  width: 150px;
+  border-bottom: 1px solid #000;
+}
+
+.container-fluid .form .row .stamp.left {
+  -ms-grid-column-align: left;
+      justify-self: left;
+}
+
+.container-fluid.bordered {
+  width: 95vw;
+  padding: 10px;
+  border: 1px dashed #000;
+}
+
+.dotted-border {
+  border-top: 1px dashed #000;
+  margin: 2em 0 1em;
+}
+

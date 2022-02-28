@@ -1,0 +1,219 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+@page {
+  size: auto;
+  margin: 0mm 1.5em;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.header {
+  text-align: center;
+  padding: 1em 0;
+}
+
+.header .branding {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.header .branding img {
+  height: 100px;
+  margin-right: 2em;
+}
+
+.header .branding .brandingTop {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 1em;
+}
+
+.header .branding .tagline {
+  font-weight: normal;
+  letter-spacing: 0.3em;
+  font-size: 1em;
+}
+
+.header .heading {
+  font-size: 3.5em;
+  color: brown;
+  font-weight: 700;
+}
+
+.header .doctors {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 1em;
+}
+
+.header .doctors div h3 {
+  color: brown;
+}
+
+.header .doctors div p {
+  font-size: 0.8em;
+}
+
+.body {
+  position: relative;
+}
+
+.body .watermark {
+  position: absolute;
+  height: 300px;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  opacity: 0.1;
+}
+
+.body .patientDetails {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  grid-row-gap: 1em;
+  margin-bottom: 2em;
+}
+
+.body .patientDetails div {
+  font-weight: 600;
+}
+
+.body .patientDetails div span {
+  font-weight: normal;
+}
+
+.body .prescription {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  grid-row-gap: 1em;
+}
+
+.body .prescription > div .heading {
+  font-weight: 600;
+}
+
+.body .prescription > div ol {
+  margin: 0.5em 0 0 1em;
+}
+
+.body .prescription > div ol li {
+  font-size: 0.9em;
+}
+
+.body .bodyLast {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 1.5em;
+  margin-bottom: 1em;
+}
+
+.body .bodyLast > div table {
+  margin-top: 0.5em;
+  width: 100%;
+}
+
+.body .bodyLast > div table thead tr th {
+  font-weight: 600;
+  padding: 5px;
+  border: 1px solid #000;
+  border-left: none;
+  border-right: none;
+}
+
+.body .bodyLast > div table tbody tr td {
+  padding: 5px;
+  font-size: 0.9em;
+}
+
+.body > div {
+  margin-top: 1.5em;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1em 0;
+  font-size: 0.85em;
+}
+
+.footer .right {
+  text-align: right;
+}
+
+.treatmentPlan {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 1em;
+}
+
+.treatmentPlan table {
+  width: 100%;
+  font-size: 0.9em;
+}
+
+.treatmentPlan table caption {
+  font-weight: 600;
+  padding: 7px;
+  border-top: 1px solid #000;
+}
+
+.treatmentPlan table thead tr th {
+  border: 1px solid #000;
+  border-left: none;
+  border-right: none;
+  padding: 5px;
+}
+
+.treatmentPlan table tbody tr td {
+  padding: 5px;
+  font-size: 0.9em;
+}
+
+.treatmentPlan table:last-child {
+  width: 50%;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  text-align: left;
+}
+
+.treatmentPlan table:last-child tbody tr:last-child th {
+  padding: 5px;
+  border-top: 1px solid #000;
+}
+/*# sourceMappingURL=index.css.map */

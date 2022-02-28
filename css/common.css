@@ -1,0 +1,92 @@
+.servicesList {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2em;
+}
+
+.servicesList .singleService {
+  -webkit-box-shadow: 0px 2px 5px rgba(98, 98, 113, 0.43);
+          box-shadow: 0px 2px 5px rgba(98, 98, 113, 0.43);
+  border-radius: 10px;
+  -webkit-transition: 0.3s all ease;
+  transition: 0.3s all ease;
+}
+
+.servicesList .singleService:hover {
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
+}
+
+.servicesList .singleService img {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.servicesList .singleService .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px 15px;
+}
+
+.servicesList .singleService .title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 0 0 1em;
+}
+
+.servicesList .singleService .title span {
+  color: #f73859;
+}
+
+.servicesList .singleService .text {
+  font-size: 0.85rem;
+}
+
+.servicesList .singleService ul li {
+  font-size: 0.85rem;
+}
+
+.servicesList .singleService ul li::before {
+  content: "\f105";
+  font-family: "FontAwesome";
+  margin-right: 0.5em;
+}
+
+.servicesList .singleService ul li:not(:first-child) {
+  margin-top: 0.5em;
+}
+
+@media only screen and (max-width: 992px) {
+  .servicesList {
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .servicesList {
+    -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
+  }
+  .servicesList .singleService .title {
+    font-size: 1.3rem;
+  }
+  .servicesList .singleService .text {
+    font-size: 0.8rem;
+  }
+  .servicesList .singleService ul li {
+    font-size: 0.8rem;
+  }
+}
+/*# sourceMappingURL=common.css.map */

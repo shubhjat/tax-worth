@@ -1,0 +1,6 @@
+RewriteEngine On
+RewriteCond %{REQUEST_URI}  !\.(?:css|js|jpe?g|gif|png)$ [NC]
+
+ErrorDocument 404 /404.html
+
+RewriteRule    ^([A-Za-z0-9-\._]+)//?$    pages/index.php?page=$1    [NC,L]
