@@ -27,105 +27,27 @@
       <i class="fa fa-long-arrow-left slidPrv" aria-hidden="true"></i>
       <i class="fa fa-long-arrow-right slidNext" aria-hidden="true"></i>
       <div class="slider-img">
-        <div class="slide-banner" style="background: url(image/banner1.jpg)">
+        <div class="slide-banner" style="background: url('./image/dashboard/banner.jpg')">
           <div class="overly">
             <div class="banner-content">
               <div class="container text-center">
                 <div class="banner-text">
-                  <h2>WE ARE THE MOST</h2>
-                  <h3>CREATIVE TEAM</h3>
+                  <h2>WE ARE</h2>
+                  <h3>TAX WORTH</h3>
                   <p>
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text.
+                    From tax filling to bookkeping, we provide you with the best services.
                   </p>
-                  <a class="ban-btn" href="#">Let's Get Start</a>
+                  <a class="ban-btn" href="#contact">Contact Us</a>
                   <div class="social-icon text-center">
-                    <a href="#"
-                      ><i class="fa fa-facebook" aria-hidden="true"></i
-                    ></a>
-                    <a href="#"
-                      ><i class="fa fa-twitter" aria-hidden="true"></i
-                    ></a>
-                    <a href="#"
-                      ><i class="fa fa-google-plus" aria-hidden="true"></i
-                    ></a>
-                    <a href="#"
-                      ><i class="fa fa-dribbble" aria-hidden="true"></i
-                    ></a>
-                    <a href="#"
-                      ><i class="fa fa-linkedin" aria-hidden="true"></i
-                    ></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="slide-banner" style="background: url(image/banner.jpg)">
-          <div class="overly">
-            <div class="banner-content">
-              <div class="container text-center">
-                <div class="banner-text">
-                  <h2>WE ARE THE MOST</h2>
-                  <h3>AWESOME AGENCY</h3>
-                  <p>
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text.
-                  </p>
-                  <a class="ban-btn" href="#">Let's Get Start</a>
-                  <div class="social-icon text-center">
-                    <a href="#"
-                      ><i class="fa fa-facebook" aria-hidden="true"></i
-                    ></a>
-                    <a href="#"
-                      ><i class="fa fa-twitter" aria-hidden="true"></i
-                    ></a>
-                    <a href="#"
-                      ><i class="fa fa-google-plus" aria-hidden="true"></i
-                    ></a>
-                    <a href="#"
-                      ><i class="fa fa-dribbble" aria-hidden="true"></i
-                    ></a>
-                    <a href="#"
-                      ><i class="fa fa-linkedin" aria-hidden="true"></i
-                    ></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="slide-banner" style="background: url(image/banner2.jpg)">
-          <div class="overly">
-            <div class="banner-content">
-              <div class="container text-center">
-                <div class="banner-text">
-                  <h2>WE ARE THE MOST</h2>
-                  <h3>POWERFUL COMPANY</h3>
-                  <p>
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text.
-                  </p>
-                  <a class="ban-btn" href="#">Let's Get Start</a>
-                  <div class="social-icon text-center">
-                    <a href="#"
-                      ><i class="fa fa-facebook" aria-hidden="true"></i
-                    ></a>
-                    <a href="#"
-                      ><i class="fa fa-twitter" aria-hidden="true"></i
-                    ></a>
-                    <a href="#"
-                      ><i class="fa fa-google-plus" aria-hidden="true"></i
-                    ></a>
-                    <a href="#"
-                      ><i class="fa fa-dribbble" aria-hidden="true"></i
-                    ></a>
-                    <a href="#"
-                      ><i class="fa fa-linkedin" aria-hidden="true"></i
-                    ></a>
+                    <a href="<?php htmlout($companyProfile['facebook']); ?>">
+                      <i class="fa fa-facebook" aria-hidden="true"></i>
+                    </a>
+                    <a href="<?php htmlout($companyProfile['instagram']); ?>">
+                      <i class="fa fa-instagram" aria-hidden="true"></i>
+                    </a>
+                    <a href="<?php htmlout($companyProfile['linkedin']); ?>">
+                      <i class="fa fa-linkedin" aria-hidden="true"></i>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -818,7 +740,7 @@
                   <div class="col-lg-6">
                     <div class="form-group">
                       <label for="mobileNo">
-                        <i class="fa fa-phone" aria-hidden="true"></i> Mobile No.
+                        <i class="fas fa-phone-alt" aria-hidden="true"></i> Mobile No.
                       </label>
                       <input name="contact" type="text" class="form-control" id="mobileNo" placeholder="Type your mobile no." />
                     </div>
