@@ -28,15 +28,10 @@
       <i class="fa fa-long-arrow-right slidNext" aria-hidden="true"></i>
       <div class="slider-img">
         <div class="slide-banner" style="background: url('./image/dashboard/banner.jpg')">
-          <div class="overly">
+          <div class="homeBanner">
             <div class="banner-content">
               <div class="container text-center">
                 <div class="banner-text">
-                  <h2>WE ARE</h2>
-                  <h3>TAX WORTH</h3>
-                  <p>
-                    From tax filling to bookkeping, we provide you with the best services.
-                  </p>
                   <a class="ban-btn" href="#contact">Contact Us</a>
                   <div class="social-icon text-center">
                     <a href="<?php htmlout($companyProfile['facebook']); ?>">

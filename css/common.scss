@@ -57,6 +57,24 @@
   }
 }
 
+.homeBanner {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+
+  .ban-btn {
+    background-color: #f73859;
+    color: #fff;
+    border-color: #f73859;
+  }
+
+  .social-icon {
+    i {
+      background-color: #f73859;
+    }
+  }
+}
+
 @media only screen and (max-width: 992px) {
   .servicesList {
     grid-template-columns: repeat(2, 1fr);

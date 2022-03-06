@@ -67,6 +67,22 @@
   margin-top: 0.5em;
 }
 
+.homeBanner {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.homeBanner .ban-btn {
+  background-color: #f73859;
+  color: #fff;
+  border-color: #f73859;
+}
+
+.homeBanner .social-icon i {
+  background-color: #f73859;
+}
+
 @media only screen and (max-width: 992px) {
   .servicesList {
     -ms-grid-columns: (1fr)[2];
