@@ -7,17 +7,17 @@
                     <p>
                         <?php htmlout($companyProfile['description']); ?>
                     </p>
-                    <div class="footer-social">
-                        <a href="<?php htmlout($companyProfile['facebook']) ?>">
+                    <!-- <div class="footer-social">
+                        <a href="">
                             <i class="fa fa-facebook" aria-hidden="true"></i>
                         </a>
-                        <a href="<?php htmlout($companyProfile['instagram']) ?>">
+                        <a href="">
                             <i class="fa fa-instagram" aria-hidden="true"></i>
                         </a>
-                        <a href="<?php htmlout($companyProfile['linkedIn']) ?>">
+                        <a href="">
                             <i class="fa fa-linkedin" aria-hidden="true"></i>
                         </a>
-                    </div>
+                    </div> -->
                 </div>
             </div>
             <div class="col-lg-4 col-sm-6">

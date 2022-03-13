@@ -33,17 +33,17 @@
               <div class="container text-center">
                 <div class="banner-text">
                   <a class="ban-btn" href="#contact">Contact Us</a>
-                  <div class="social-icon text-center">
-                    <a href="<?php htmlout($companyProfile['facebook']); ?>">
+                  <!-- <div class="social-icon text-center">
+                    <a href="">
                       <i class="fa fa-facebook" aria-hidden="true"></i>
                     </a>
-                    <a href="<?php htmlout($companyProfile['instagram']); ?>">
+                    <a href="">
                       <i class="fa fa-instagram" aria-hidden="true"></i>
                     </a>
-                    <a href="<?php htmlout($companyProfile['linkedin']); ?>">
+                    <a href="">
                       <i class="fa fa-linkedin" aria-hidden="true"></i>
                     </a>
-                  </div>
+                  </div> -->
                 </div>
               </div>
             </div>
@@ -68,13 +68,7 @@
           </div>
         </div>
         <div class="row apt">
-          <div class="col-lg-5 col-sm-8 m-sm-auto">
-            <div class="about-img">
-              <img src="image/about2.jpg" alt="about-img" class="img-fluid" />
-            </div>
-          </div>
-          <div class="col-lg-1"></div>
-          <div class="col-lg-6 about-text">
+          <div class="col-lg-12 about-text">
             <h2>WE ARE TAX WORTH</h2>
             <!-- <span>From United State, America</span> -->
             <div class="about-p">
@@ -709,7 +703,7 @@
     <!-- PRICE AREA END -->
 
     <!-- CONTACT AREA START -->
-    <section id="contact">
+    <section id="contact" class="contactUsBg">
       <div class="container zindex">
         <div class="row">
           <div class="col-lg-12 about-head heading-bg form-head">
@@ -764,24 +758,6 @@
                   <i class="fa fa-paper-plane-o" aria-hidden="true"></i> Send It
                 </button>
               </form>
-            </div>
-          </div>
-          <div class="col-lg-6 form-icon text-center">
-            <a
-              class="venobox"
-              data-autoplay="true"
-              data-vbtype="video"
-              href="https://www.youtube.com/watch?v=nuktTVmoKfc"
-              ><i class="fa fa-play" aria-hidden="true"></i
-            ></a>
-            <div class="watch-text">
-              <a
-                class="venobox"
-                data-autoplay="true"
-                data-vbtype="video"
-                href="https://www.youtube.com/watch?v=nuktTVmoKfc"
-                >Watch Our Story</a
-              >
             </div>
           </div>
         </div>

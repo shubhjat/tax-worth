@@ -1260,11 +1260,6 @@ img {
 #contact {
   padding: 80px 0;
   position: relative;
-  background: url(../image/contact.jpg);
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
 }
 
 #contact::after {
