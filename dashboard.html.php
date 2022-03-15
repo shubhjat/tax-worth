@@ -402,6 +402,15 @@
               </p>
             </div>
           </div>
+          <div class="singleService">
+            <img src="./image/dashboard/audit-and-assurance.jpg" alt="Audit and Assurance" />
+            <div class="content">
+              <h3 class="title">Audit and <span>Assurance</span></h3>
+              <p class="text">
+                Audits are more than just evaluations and observations of financial statements. An audit represents an opportunity to learn about your business and how to forecast decisions for future. We prefer deep understanding of our clients' industries, enterprise structures, aspirations and challenges and giving actionable insights relevant to the business thorough our audit and assurance services.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </section>
