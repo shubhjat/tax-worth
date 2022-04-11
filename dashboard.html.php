@@ -411,6 +411,18 @@
               </p>
             </div>
           </div>
+          <div class="singleService">
+            <img src="./image/dashboard/soc-audit.png" alt="SOC Audit" />
+            <div class="content">
+              <h3 class="title"><span>SOC</span> Audit</h3>
+              <p class="text">
+              More and more organizations are turning to a System and Organization Control Report (SOC Report) to provide a high level of assurance to clients and customers that they have the appropriate controls in place.
+              <br />
+              If a company provides outsourced business services to other entities, then a SOC report provides those entities with the confidence that your control environment is defined, suitably designed and implemented effectively. The rapid growth in the number of businesses outsourcing various functions has made it absolutely necessary for service organizations to have internal controls in place designed to protect those they work with. We provide the End to End services from starting till End with proper compliant checklist & requirements under (SSAE18) standards of AICPA.
+
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </section>
