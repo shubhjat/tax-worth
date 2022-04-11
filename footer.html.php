@@ -39,7 +39,7 @@
                             <a href="mailto:<?php htmlout($companyProfile['email']) ?>"><?php htmlout($companyProfile['email']) ?></a>
                         </li>
                         <li>
-                            <a href="tel:+91<?php htmlout($companyProfile['contact']) ?>">+91-<?php htmlout($companyProfile['contact']) ?></a>
+                            <a href="tel:<?php htmlout($companyProfile['contact']) ?>">+91-<?php htmlout($companyProfile['contact']) ?></a>
                         </li>
                     </ul>
                 </div>
